@@ -1,0 +1,351 @@
+body{
+    padding: 2px;
+    font-family: raleway;
+    max-width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: eb garamond;
+}
+@media screen and (max-width:727px) {
+    .logo{
+        width: 50%;
+    }
+   .header{
+       padding: 5%;
+       height: 20%;
+   }
+   
+   .navbar{
+       display: grid;
+       grid-template-columns: 90% 10%;
+       align-items: center;
+   }
+   .menu1{
+       display: none;
+   }
+   .header>div h1{
+       font-size: 10vmin;
+       font-weight:bold;
+       width: 80%;
+      margin-top: 40px;
+      border: white 2px solid ;
+     align-items: center;
+     margin: auto;
+    padding: 5%;
+    color: white;
+   }
+   .text{
+       margin-top: 70px;
+   }
+   
+   .modal{
+       display: block;
+       text-align: center;
+       padding: 35px;
+   }
+   .modal h1{
+       font-weight: bold;
+       font-size: 5vmax;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       font-weight: bolder;
+   }
+   .modal>div h1{
+       text-align: center;
+       font-size: 5vmax;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       font-weight: bolder;
+   }
+   .modal p{
+       font-weight: bold;
+       color: rgb(112, 108, 108);
+   }
+   .modal img{
+       width: 100%;
+   }
+   .see-all2{
+       display: none;
+   }
+   .header2 h1{
+     text-align: center;
+    font-size: 5vmax;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+   }
+   .illustrations{
+       padding: 20px;
+   }
+   .illustrations >div{
+       color: white;
+       padding: 20px;
+       margin-bottom: 20px;
+       height: 4cm;
+   }
+   .illustrations>div img{
+       z-index: 2;
+       width: 100%;
+   }
+   .illustrations>div h2{
+       width: 50%;
+       margin-top: 50px;
+   }
+   .deep-earth{
+       background-image: url('./images/image-deep-earth.jpg');
+   }
+   .Night-arcade{
+       background-image: url('./images/image-night-arcade.jpg ');
+   }
+   
+   .soccer-team{
+       background-image: url('./images/image-soccer-team.jpg');
+   }
+   .the-grid{
+       background-image: url('./images/image-grid.jpg');
+   }
+   .up-above{
+       background-image: url('./images/image-from-above.jpg');
+   }
+   .pocket{
+       background-image: url('./images/image-pocket-borealis.jpg');
+   }
+   .curiosity{
+       background-image: url('./images/image-curiosity.jpg');
+   }
+   .fish-eye{
+       background-image: url('./images/image-fisheye.jpg');
+   }
+   .deep-earth{
+       background-image: url('./images/image-deep-earth.jpg');
+   }
+   .see-all{
+       text-align: center;
+       border: 2px solid darkgrey;
+       width: 40%;
+       padding: 10px;
+       margin: auto;
+   }
+   .logo-bottom{
+       width: 50%;
+   }
+   .bottom{
+       background-color: black;
+       color: white;
+       padding: 40px 20px;
+       text-align: center;
+   }
+   .bottom p{
+       font-size: 3vmax;
+       line-height: 40px;
+       font-weight: bold;
+   }
+   .see-all:hover{
+       cursor: pointer;
+       background-color: black;
+       color: white;
+   }
+}
+
+@media screen and (min-width:727px) {
+
+   p{
+       font-size: 2.7vmin;
+   }
+   .menu1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+   }
+    .navbar{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 60% 0% 40%;
+        align-items: center;
+    }
+    .navbar p{
+        
+        cursor: pointer;
+        color: white;
+    }
+    .navbar p:hover{
+        font-weight: bolder;
+    }
+    .menu{
+        
+        display: flex;
+    }
+    .menu p{
+        margin-left: 3%;
+    }
+    .menu1 p{
+        font-size: 1.8vw;
+        margin-left: 3%;
+    }
+    .header{
+        width: 100%;
+        height: 10%;
+    }
+
+    .header{
+        padding: 5%;
+        background-image: url('./images/hero-desktop.jpg');
+    }
+    .header>div h1{
+        font-size: 8vmin;
+        font-weight: bold;
+        width: 40%;
+     margin-top: 40px;
+     border: white 2px solid ;
+    align-items: start;
+     padding: 20px;
+     color: white;
+    }
+   .illustrations{
+       width: 100%;
+       display: grid;
+       grid-template-columns: 23% 23% 23% 23%;
+       gap: 1%;
+   }
+   .illustrations{
+    padding: 20px;
+}
+.illustrations >div{
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 4cm;
+}
+.illustrations div{
+    height: 10cm;
+    
+}
+
+.illustrations>div h2{
+    width: 50%;
+    margin-top: 50px;
+}
+.hamburger{
+    display: none;
+}
+.modal{
+    padding: 4%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.modal h1{
+    font-weight: bold;
+    font-size: 5vmax;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.modal div{
+    padding: 20px;
+    width: 80%;
+    margin-top: 100px;
+    background-color: white;
+    margin-left: -14%;
+}
+.modal>div h1{
+    text-align: center;
+    font-size: 6vmin;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.modal p{
+    font-weight: bold;
+    color: rgb(112, 108, 108);
+}
+.modal img{
+    width: 100%;
+}
+.deep-earth{
+    background-image: url('./images/image-deep-earth-desktop.jpg');
+    background-repeat: no-repeat;
+}
+.Night-arcade{
+    background-image: url('./images/image-night-arcade-desktop.jpg');
+    background-repeat: no-repeat;
+}
+
+
+.soccer-team{
+    background-image: url('./images/image-soccer-team-desktop.jpg');
+    background-repeat: no-repeat;
+}
+.the-grid{
+    background-image: url('./images/image-grid-desktop.jpg');
+    background-repeat: no-repeat;
+}
+.up-above{
+    background-image: url('./images/image-from-above-desktop.jpg');
+    background-repeat: no-repeat;
+}
+.pocket{
+    background-image: url('./images/image-pocket-borealis-desktop.jpg');
+    background-repeat: no-repeat;
+}
+.curiosity{
+    background-image: url('./images/image-curiosity-desktop.jpg');
+    background-repeat: no-repeat;
+}
+.fish-eye{
+    background-image: url('./images/image-fisheye-desktop.jpg');
+    background-repeat: no-repeat;
+}
+
+.header2{
+    padding:0px 3%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.header2 h1{
+    font-size: 5vmin;
+}
+.see-all{
+    display: none;
+}
+
+.see-all2{
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid darkgrey;
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+}
+.see-all2:hover{
+    background-color: black;
+    color: white;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.bottom div{
+    margin-bottom: 20px;
+}
+#menu{
+   display: grid;
+   grid-template-columns: 15% 15% 15% 15% 15%;
+   
+
+}
+#menu p{
+    font-size: 1.7vw;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 1%;
+}
+
+}
+
